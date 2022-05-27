@@ -37,7 +37,7 @@ section{
     border-radius: 4px;
     content: "";
     width: 100%;
-    height: 100%;
+    height: 150%;
     transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -48,13 +48,35 @@ section{
     top: 0;
     left: 0;
     opacity: 0;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
-.color-palette:before, .sox-services:before, .color-palette:hover{
-    background-image: -moz-linear-gradient(0deg, #7073ef 0%, #9f77fb 100%);
-    background-image: -webkit-linear-gradient(0deg, #7073ef 0%, #9f77fb 100%);
+.color-palette.six-Storage:hover{
+    background-image: -moz-linear-gradient(0deg, #343af7 0%, #5f9cf3e3 100%);
+    background-image: -webkit-linear-gradient(0deg, #343af7 0%, #5f9cf3e3 100%);
     box-shadow: 0px 10px 20px 0px rgb(139 118 246 / 40%);
+    transition: all 33s ease-in-out;
+}
+
+.color-palette.six-Recokoner:hover{
+    background-image: -moz-linear-gradient(0deg, #4ed491 0%, #2fbdcc 100%);
+    background-image: -webkit-linear-gradient(0deg, #4ed491 0%, #2fbdcc 100%);
+    background-image: repeating-linear-gradient(90deg, transparent 0px, transparent 1px,transparent 1px, transparent 13px),repeating-linear-gradient(45deg, transparent 0px, transparent 1px,transparent 1px, transparent 13px),linear-gradient(90deg, #4ed491,rgb(47 189 204));
+    box-shadow: 0px 10px 20px 0px rgba(118, 246, 131, 0.458);
+    transition: all 33s ease-in-out;
+}
+
+.color-palette.Website-Service:hover{
+    background-image: -moz-linear-gradient(0deg, #271e99ed 0%, #6559e5eb 100%);
+    background-image: -webkit-linear-gradient(0deg, #271e99ed 0%, #6559e5eb 100%);
+    box-shadow: 0px 10px 20px 0px rgb(139 118 246 / 40%);
+    transition: all 33s ease-in-out;
+}
+
+.color-palette.Digital:hover{
+    background-image: -moz-linear-gradient(0deg, #db4b4e 0%, #961276a8 100%);
+    background-image: -webkit-linear-gradient(0deg, #db4b4e 0%, #961276a8 100%);
+    box-shadow: 0px 10px 20px 0px rgba(240, 118, 246, 0.4);
     transition: all 33s ease-in-out;
 }
 
