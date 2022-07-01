@@ -141,7 +141,7 @@ body{
 }
 
 section{
-    padding: 100px 0;
+    padding: 84px 0;
 }
 
 .egg-shape{
@@ -439,11 +439,11 @@ a{
 
     a{
         font-size: 13px !important;
-        padding: 0.375rem 0.25rem !important;
+        padding : 0.25rem !important;
     }
 
     .cc-title h2{
-        font-size: 26px;
+        font-size: 22px;
         line-height: 36px;
     }
 
@@ -453,7 +453,7 @@ a{
     
 
     .cc-max-width{
-        max-width: 900px;
+        max-width: 990px;
         margin: 0 auto;
     }
     
@@ -471,7 +471,7 @@ a{
     }
 
     .cc-title h2{
-        font-size: 30px;
+        font-size: 24px;
         line-height: 40px;
     }
 
