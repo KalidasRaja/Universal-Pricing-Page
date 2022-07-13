@@ -365,6 +365,7 @@ a{
 
     .color-palette h3 {
         -webkit-text-fill-color: #fff !important;
+        text-decoration: underline;
     }
 
 
